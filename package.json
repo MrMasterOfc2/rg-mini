@@ -1,41 +1,32 @@
 {
   "name": "suho-md-mini",
   "version": "1.0.0",
-  "description": " WhatsApp Bot with Multi-Number Support",
+  "description": "WhatsApp Bot with Multi-Number Support",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:baileys-mod",
+    "@whiskeysockets/baileys": "^6.6.0",
     "express": "^4.18.2",
     "fs-extra": "^11.2.0",
-    "ruhend-scraper": "^9.0.8",
-    "node-fetch": "^2.6.1",
-    "dotenv": "^16.4.5",
-    "pino": "^8.17.0",
-    "jimp": "^0.16.1",
-    "@octokit/rest": "^20.0.2",
-    "child_process": "^1.0.2",
-    "denethdev-ytmp3":"1.0.3",
-    "yt-search": "2.12.1",
-    "path": "^0.12.7",
-    "mongodb":"^6.18.0",
-    "uuid":"^11.1.0",
-    "axios": "^1.2.5",
-    "yt-search": "2.12.1",
-    "moment-timezone": "^0.6.0"
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "qrcode-terminal": "^0.12.0",
+    "moment-timezone": "^0.5.40",
+    "mongodb": "^6.0.0",
+    "node-cron": "^3.0.2",
+    "pino": "^8.15.0"
   },
   "engines": {
-    "node": ">=18.x"
+    "node": ">=18.x",
+    "npm": ">=9.x"
   },
   "keywords": [
-    "whatsapp",
-    "bot",
-    "multi-device",
+    "whatsapp-bot",
     "baileys",
-    "suho-md-mini"
+    "multi-device"
   ],
   "author": "XdKing2",
   "license": "MIT"
